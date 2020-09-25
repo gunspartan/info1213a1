@@ -4,9 +4,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>INFO 1213 A1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <title>John Doe</title>
 </head>
 <body>
-  Hello world
+  <!--Profile-->
+  <section class="profile">
+    <div>
+      <h1>John Doe</h1>
+      <img src="img/profile-img.jpg" alt="Profile Photo">
+      <!--Tagline-->
+      <p><strong>Student</strong> and <em>Full-stack web developer</em></p>
+      <!--Link for projects page-->
+      <div class="projects-link">
+        <a href="projects.html">See my projects here.</a>
+      </div>
+    </div>
+  </section>
+  <!--Skills-->
+  <section class="skills-section">
+    <div class="skills">
+      <h2>Skills</h2>
+      <div class="skill-table">
+        <!--Skill Table-->
+        <table>
+          <!--First table row-->
+          <tr>
+            <td>
+              <div class="skill">
+                <h3>HTML</h3>
+                <!--Skill desciption-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid at ullam natus itaque. Necessitatibus voluptas laborum voluptatem at praesentium  ex.
+                </p>
+                </div>
+             </td>
+            <td>
+            <div class="skill">
+              <h3>CSS</h3>
+              <!--Skill desciption-->
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid at ullam natus itaque. Necessitatibus voluptas laborum voluptatem at praesentium  ex.
+              </p>
+            </div>
+          </td>
+          </tr>
+          <!--Second table row-->
+          <tr>
+            <td>
+              <div class="skill">
+                <h3>Javascript</h3>
+                <!--Skill desciption-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid at ullam natus itaque. Necessitatibus voluptas laborum voluptatem at praesentium  ex.
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="skill">
+                <h3>SQL</h3>
+                <!--Skill desciption-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid at ullam natus itaque. Necessitatibus voluptas laborum voluptatem at   praesentium  ex.
+                </p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!--Education and Experience-->
+  <section class="other-info">
+    <div class="container">
+      <div class="education">
+      <h2>Education</h2>
+      <!--List of Education-->
+      <ul>
+        <li>
+          <div class="degree">
+            <h3>Bahelor of Science</h3>
+            <p>Kwantlen Polytechnic University. September 2020</p>
+          </div>
+        </li>
+        <li>
+          <div class="degree">
+            <h3>Bahelor of Science</h3>
+            <p>University of British Columbia. April 2016</p>
+          </div>
+        </li>
+        <li>
+          <div class="degree">
+            <h3>Bahelor of Science</h3>
+            <p>Simon Fraser University. January 2012</p>
+          </div>
+        </li>
+      </ul>
+      </div>
+      <div class="experience">
+      <h2>Experience</h2>
+      <!--List of Experience-->
+      <ul>
+        <li>
+          <div class="job">
+            <h3>Project Manager</h3>
+            <p>Amazon. Current</p>
+          </div>
+        </li>
+        <li>
+          <div class="job">
+            <h3>Full-stack Developer</h3>
+            <p>Google. January 2019 - August 2019</p>
+          </div>
+        </li>
+        <li>
+          <div class="job">
+            <h3>Senior Devleoper</h3>
+            <p>Microsoft. May 2018 - December 2018</p>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <h3>John Doe</h3>
+      <h3>JohnDoe@email.com</h3>
+      <h3>+1 604 123 4567</h3>
+    </div>
+    <!--Contact Form-->
+    <form action="POST" class="contact-form">
+      <div>
+        <p>Email</p>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div>
+        <p>Message</p>
+        <input type="text" name="message">
+      </div>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </section>
 </body>
 </html>
